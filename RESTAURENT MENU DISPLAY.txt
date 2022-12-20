@@ -1,12 +1,11 @@
 // Code to build  a restaurant menu
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
  int i,t=0,l,x;
  char n[20];
  float cgst, gst,dis,gt;
- clrscr();
+// clrscr();
  printf("\n ********** PUBG hotel ************");
  printf("\n     ------- menu ----------");
  printf("\n 0 = chicken biriyani \n 1= mutton biriyani \n 2=prawns biriyani ");
@@ -54,5 +53,5 @@ void main()
   printf("\n \t    %s thanks for coming ",n);
   printf("\n \t\t  visit us again ");
   printf("\n \t\t *****************");
-  getch();
+  //getch();
 }
